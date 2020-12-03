@@ -25,7 +25,6 @@ fn parse_pw_line(input: &str) -> PasswordsWithPolicy {
     PasswordsWithPolicy { min, max, char, pw }
 }
 
-/// Parses each line to be an i32
 #[aoc_generator(day2)]
 fn generator_input(input: &str) -> Vec<PasswordsWithPolicy> {
     input
