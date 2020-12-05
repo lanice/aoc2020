@@ -1,4 +1,3 @@
-/// Parses each line to be an i32
 #[aoc_generator(day1)]
 fn generator_input(input: &str) -> Vec<i32> {
     input.lines().map(|a| a.parse::<i32>().unwrap()).collect()
